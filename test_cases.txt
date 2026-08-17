@@ -1,0 +1,57 @@
+WEEK 2 - STUDENT GRADE CALCULATOR
+TEST CASES
+
+Test Case 1: Valid Input - Grade B
+----------------------------------
+Student Name: Rudranshu
+Marks: 87
+
+Expected Result:
+Grade: B
+Message: Great job! Keep working hard and aim even higher!
+
+Actual Result:
+The program displayed Grade B with the expected encouraging message.
+
+Status: PASS
+
+
+Test Case 2: Invalid Marks - Above 100
+---------------------------------------
+Student Name: Sweta
+Marks: 106
+
+Expected Result:
+The program should reject the marks because they are greater than 100
+and ask the user to enter marks again.
+
+Actual Result:
+Invalid input. Marks must be between 0 and 100.
+The program asked for marks again.
+
+Status: PASS
+
+
+Test Case 3: Invalid Input - Non-numeric Value
+----------------------------------------------
+Student Name: Raja
+Marks: asd
+
+Expected Result:
+The program should reject the input because it is not a number and ask
+the user to enter marks again.
+
+Actual Result:
+Invalid input. Please enter a number.
+The program asked for marks again.
+
+Status: PASS
+
+
+TEST SUMMARY
+------------
+Total Test Cases: 3
+Passed: 3
+Failed: 0
+
+Overall Result: PASS
